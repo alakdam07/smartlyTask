@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+
+
+}
+
+body {
+  font-family: 'ProximaNovaSoft-Bold', proxima-soft, sans-serif;
+  transition: background 1s ease;
+  width: 100%;
+
+}
+
+/*Nav*/
+.logo {
+  float: left;
+  margin: 16px 36px;
+}
+
+.wraper {
+  background: white;
+}
+
+nav ul {
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 15px;
+
+}
+
+
+/*home*/
+
+.header__headline {
+
+  font-size: 3.6rem;
+  color: #fff;
+  margin: 9rem 0;
+  position: absolute;
+  top: 5%;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.15)
+}
+
+.header__text-area {
+  color: #fff;
+  font-weight: normal;
+  background: rgba(0, 30, 67, 0.8);
+  margin: 2rem;
+  padding: 1.35rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  border-radius: 10px
+}
+
+
+.wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, rgba(91, 7, 102, 0.8), transparent 81%), url("https://www.smartly.io/hubfs/Frontpage%202019/Pillars-1.png");
+  background-size: cover;
+  padding: 1rem;
+  overflow: hidden
+}
+
+/*button*/
+.button {
+  -o-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+  font-family: 'ProximaNovaSoft-Regular', proxima-soft, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  background: #7d408c;
+  color: #f4f4f4;
+  padding: 1em 2em;
+  border-radius: 5em;
+  display: inline-block;
+
+}
+
+/*card*/
+.Cards-body {
+  display: flex;
+
+}
+
+.container {
+  margin: 15px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+.cards {
+  width: 235px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.box {
+  width: 260px;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0px 0px 7px 3px gray;
+  text-align: center;
+  margin: 25px auto;
+  transition: all 0.5s;
+  border-radius: 5px;
+
+}
+
+.box:hover {
+  filter: brightness(1.2);
+}
+
+.box p {
+  font-family: 'ProximaNovaSoft-Regular', proxima-soft, sans-serif;
+  color: #21234d;
+  font-weight: 600;
+}
+
+
+/*Sections*/
+.content {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.display {
+  display: flex;
+}
+
+/*section one*/
+.sectionOne {
+  color: #21234d;
+  font-size: 35px;
+  margin: 50px;
+  font-weight: 700;
+
+}
+
+.image {
+  width: 700px;
+  height: 600px
+}
+
+.heading {
+  display: none;
+}
+
+/*sectionTwo*/
+.image2 {
+  width: 900px;
+  height: 600px;
+
+}
+
+.image3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+/*Map*/
+.marker path {
+  fill: #f3b73e;
+}
+
+.popup {
+  width: 30vw;
+  padding: 1rem;
+}
+
+.map-body {
+  padding-left: 80px;
+}
