@@ -24,6 +24,7 @@
   - [x] Error message styling
   - [x] MapBox setup
   - [x] Build production
+  - [x] Unit test
 
 ## Copyright
 

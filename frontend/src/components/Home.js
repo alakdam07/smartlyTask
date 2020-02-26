@@ -68,7 +68,11 @@ const Home = () => {
         <br></br>
         <div style={{ textAlign: "center" }}>
           {!loadingData && (
-            <button className="button" onClick={() => fetchdata()}>
+            <button
+              className="button"
+              data-testid="button"
+              onClick={() => fetchdata()}
+            >
               more facts
             </button>
           )}
